@@ -36,3 +36,10 @@ const users = [
     },
   },
 ];
+
+const totalVolumen = 0;
+
+for (const user of users) {
+    // buscar cómo se ejecutaba el forin
+    
+}
