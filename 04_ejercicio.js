@@ -21,7 +21,7 @@ function findArrayIndex(array, text) {
   return `The character ${text} doesn't exist.`;
 }
 
-findArrayIndex(mainCharacters, "Anakin");
+console.log(findArrayIndex(mainCharacters, "Anakin"));
 
 /* 2. Usando la función anterior benefíciate de poder conocer el índice del
 array para crear una función llamada "removeItem" que, pasándole un array y
