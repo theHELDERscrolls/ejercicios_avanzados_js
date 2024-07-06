@@ -39,3 +39,17 @@ const users = [
     },
   },
 ];
+
+let usersFavs = {};
+
+for (const user of users) {
+  for (const sound in user.favoritesSounds) {
+    if (!usersFavs[sound]) {
+      usersFavs[sound] = 1;
+    } else {
+      usersFavs[sound]++;
+    }
+  }
+}
+
+console.log(usersFavs);
